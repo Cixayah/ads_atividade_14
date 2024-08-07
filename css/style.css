@@ -3,7 +3,7 @@
 :root {
   --bg-color: #282a36;
   --fg-color: #f8f8f2;
-  --primary-color: #bd93f9;
+  --accent-color: #bd93f9;
   --secondary-color: #6272a4;
   --accent-color: #ff79c6;
   --highlight-color: #42c262;
@@ -25,7 +25,7 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 .card {
@@ -43,8 +43,8 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 h1,
